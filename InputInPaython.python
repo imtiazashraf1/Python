@@ -1,0 +1,27 @@
+
+#Input in Paython
+name=int(input("Enter your value: "))
+print(type(name))
+
+#Input name, age and marks
+
+name = input("Enter your name: ")
+print("Your name is: ",name)
+age = input("Enter your age: ")
+print("Age: ",age)
+marks = input("Enter your marks: ")
+print("Yours marke: ",marks)
+
+#   WAP to input of a square and print its area.
+
+side= int(input("Enter a side of the square: "))
+area=side*side
+print("The area is : ",area)
+
+#WAP to input 2 floating point numbers and print their average.
+
+num1=float(input("Enter the first number: "))
+num2=float(input("Enter the second number: "))
+sum=num1+num2
+average=sum/2
+print("The average is : ",average)
