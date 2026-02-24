@@ -1,0 +1,21 @@
+#Type Conversion(In value)
+
+a=2
+b=6.456
+
+sum=a+b
+print(sum)
+#Type Casting
+a=int("2")
+b=6.456
+
+sum=a+b
+print(type(a))
+print(sum)
+
+#Type Conversion(In String)
+a=3.1416
+b=6
+a=str(a)
+
+print(type(a))
