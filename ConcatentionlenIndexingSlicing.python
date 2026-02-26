@@ -1,0 +1,24 @@
+#Concatention(Connect 2 strings within 1 string)
+str1= "My name is Md Imtiaz Ashraf."
+str2= " My roll number is 20654"
+finalstr = str1+str2
+print(finalstr)
+
+#len(finalstr)
+str1= "My name is Md Imtiaz Ashraf."
+print(len(str1))
+str2= " My roll number is 20654"
+print(len(str2))
+finalstr = str1+" "+str2
+print(finalstr)
+print(len(finalstr))
+
+#Indexing
+str = "Imtiaz Ashraf"
+ch=str[7]
+print(ch)
+
+#Slicing
+str= "Md Imtiaz Ashraf"
+print(str[-5:-2])#Ans is shr
+print(str[11:14])#Ans is shr 
