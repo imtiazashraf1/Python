@@ -1,0 +1,42 @@
+#Conditional statement
+ 
+age = 24
+
+if(age>=18):
+    #print("Can vote.\nApply for Lience")
+    print("Can vote")
+else:
+    print("Can not vote")
+
+
+#Traffic Light
+light= "Blue"
+
+if(light=="Red"):
+    print("Stop")
+elif(light=="Green"):
+    print("Go")
+elif(light=="Yellow"):
+    print("Wait")
+else:
+    print("The light is broken")    
+print("End of the code")
+
+
+#Grade students based on marks
+#marks >= 90, grade =“A”
+#90 > marks >= 80, grade ="B"
+#80 > marks >= 70, grade ="c"
+#70 > marks, grade =“D”
+
+marks= int(input("Enter the student marks: "))
+if(marks>=90):
+    grade="A"
+elif(marks>=80 and marks<90):
+    grade="B"     
+elif(marks>=70 and marks<80):
+    grade="C"  
+else:
+    grade="D" 
+
+print("Grade of the student:",grade) 
