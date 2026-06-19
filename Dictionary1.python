@@ -1,0 +1,13 @@
+info = {
+    "Key" : "Value",
+    "Name" : "Md Imtiaz Ashraf",
+    "Age" : "24",
+    "isAdult" : True,
+    "Marks": 94.5,
+    12:67.89,
+    "subject" : ["Python",]
+}   
+print(info)
+print(type(info))
+
+ 
